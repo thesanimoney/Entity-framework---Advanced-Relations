@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P01_BillsPaymentSystem.App", "P01_BillsPaymentSystem.App", "{9450FF52-17E7-4788-ABA5-4CE8043C5C0A}"
+	ProjectSection(SolutionItems) = preProject
+		Program.cs = Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P01_BillsPaymentSystem.Data", "P01_BillsPaymentSystem.Data", "{1D60C149-5CA6-4AAE-A40C-88C07D7760E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{42067584-7942-4D37-A909-7CA1B4E28A73}"
+	ProjectSection(SolutionItems) = preProject
+		ModelsProgram.cs = ModelsProgram.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityTypeConfigurations", "EntityTypeConfigurations", "{7BAEAEFE-203D-4BA4-AE6E-92ED1827B964}"
+	ProjectSection(SolutionItems) = preProject
+		EntityTypeConfiguration.cs = EntityTypeConfiguration.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCFD47A9-D1F2-45FB-8878-EEF81CF255A9}"
+	ProjectSection(SolutionItems) = preProject
+		BillsPaymentSystemContextSeeder.cs = BillsPaymentSystemContextSeeder.cs
+		ConsoleApp.cs = ConsoleApp.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42067584-7942-4D37-A909-7CA1B4E28A73} = {9450FF52-17E7-4788-ABA5-4CE8043C5C0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E065B64-DAED-4412-B966-3337B45F77FC}
+	EndGlobalSection
+EndGlobal
